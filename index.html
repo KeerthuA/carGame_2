@@ -3,12 +3,13 @@
 <head>
 <style>
 body{
-	background-image: url("200.gif");
+	background-image: url("https://i.postimg.cc/KzWwHPcq/racing.gif");
     background-position: center;
     background-size: cover;
 }
 #myCanvas
 {
+    margin-top: 30px;
 	border-width:10px;
 	background-color: white; 
 	border-style:ridge;
@@ -18,21 +19,23 @@ h1,h4
 {
 	color: white !important;
 }
-</style>		
+</style>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<title>Moving The Race car</title>
+	<title>Car Racing</title>
 </head>
 <body onload="add();">
 
 <center>
-<h1>Moving the Race car</h1>
-<canvas id="myCanvas" width="800" height="600">
-</canvas>
-
+<h1>Car Racing</h1>
+<h1>Game Status : <span id="game_status"></span></h1>
+	<canvas id="myCanvas" width="800" height="600">
+	</canvas>
 <h4>
-	<b class="text-danger">NOTE : </b> IF Cars ARE NOT VISIABLE PRESS ANY ARROW KEY OR THE ALPHABET W,R,S,T
+	<b class="text-danger">NOTE : </b> IF THE CARES ARE NOT VISIABLE PRESS ANY ARROW KEY
 </h4>
 
 </center>
